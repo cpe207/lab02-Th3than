@@ -1,0 +1,25 @@
+h3 {
+  color: blueviolet;
+  text-align: center;
+}
+
+.skill-header {
+  text-align: left;
+}
+.skill-box {
+  text-align: left;
+  border: solid lightgreen;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  margin-bottom: 16px;
+}
+.link {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+}

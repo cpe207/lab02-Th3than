@@ -1,5 +1,4 @@
 h3 {
-  color: blueviolet;
   text-align: center;
 }
 
@@ -22,4 +21,13 @@ h3 {
   padding-left: 16px;
   margin-bottom: 16px;
   text-align: center;
+}
+
+.rouall {
+  border-radius: 15px;
+}
+
+.roule {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }

@@ -4,28 +4,75 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Contact</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <title>My portfolio</title>
   </head>
   <body>
-    <h3 style="color: blueviolet; text-align: center">Contact</h3>
-    <div class="link">
-      <a href="index.html">HOME</a>&nbsp;&nbsp;
-      <a href="experience.html">Experience</a>&nbsp;&nbsp;
-      <a href="contact.html">Contact</a>
-    </div>
-    <img
-      src="images/pinat.jpg"
-      height="300px"
-      style="margin-right: auto; display: block; margin-left: auto"
-    />
-    <br />
-    <h3 style="color: blueviolet; text-align: center">My Contact</h3>
-    <div class="skill-box" style="text-align: center">
-      <p class="skill-header">
-        Email :
-        <a href="mailto:natan_bunkerd@cmu.ac.th">natan_bunkerd@cmu.ac.th</a>
-      </p>
-      <p class="skill-header">Tel : 095-1133284</p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid gap-2">
+        <h3 style="color: black">My portfolio</h3>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="experience.html">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br><br>
+    <div class=" mx-auto gap-5 d-flex p-3 flex-wrap justify-content-center" style="max-width: 700px">
+      <div>
+        <img
+          src="images/118600320_2462611800551165_9209826879425080162_n.jpg"
+          class="rounded-circle"
+          height="200px"
+          width="200px"
+          style="margin-right: auto; display: block; margin-left: auto"
+        />
+      </div>
+      <div>
+        <h3 class="display-5 ms-3 mb-3">My Contact</h3>
+            Email :
+            <a href="mailto:natan_bunkerd@cmu.ac.th">natan_bunkerd@cmu.ac.th</a>
+            <br>
+            facebook :
+            <a href="https://www.facebook.com/profile.php?id=100004071075206">นาธาน บุญเกิด</a>
+          <p class="skill-header">Tel : 095-1133284</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
